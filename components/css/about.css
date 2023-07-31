@@ -1,27 +1,4 @@
-.ell{
- text-decoration: line-through;
- color: orange;
-}
-
-.ell:hover{
-  background-color: orange;
-  border-radius: 2px;
-  color: rgb(220, 220, 220);
-  text-decoration: none;
-}
-
-.bar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background-color:green;
-  transform-origin: 0%;
-  z-index: 1;
-}
-
-.fcc{
+/* .fcc{
   text-decoration:line-through;
   color: darkblue;
 }
@@ -30,13 +7,13 @@
   background-color: silver;
   text-decoration: none;
   border-radius: 2px;
-}
+} */
 
-.story{
+/* .story{
 text-align: center;
 padding: 19vw;
 padding-top: 2vh;
-}
+} */
 
 .abt{
   padding-bottom: 3vh;
@@ -79,17 +56,10 @@ padding-top: 2vh;
   display: flex;
 }
 
-.mexico{
-  color: green;
-  cursor: pointer;
-}
 
-.tanzania{
-  cursor: pointer;
-  color: green;
-}
 
-.ft{
+
+/* .ft{
   padding-bottom: 2.5vh;
   display: flex;
   justify-content: center;
@@ -97,14 +67,14 @@ padding-top: 2vh;
   z-index: 1;
   position: sticky;
   bottom: 0;
-}
+} */
 
 
 @media all and (min-width: 320px){
-  .header{
+  /* .header{
     gap: 75vw;
     position: sticky;
-  }
+  } */
   
   .center{
     padding: 70px 0;
@@ -112,65 +82,65 @@ padding-top: 2vh;
     text-align: center;
     /* color: red; */
   }
-
+/* 
   .footer{
     position:sticky;
     gap: 75vw;
     
-  }
+  } */
 }
 
 @media all and (min-width: 481px){
-  .header{
+  /* .header{
     position: sticky;
     gap: 77vw;
-  }
+  } */
 
   .center{
     padding: 70px 0;
     text-align: center;
     /* color: red; */
   }
-
+/* 
   .ft{
     position:sticky;
     gap: 83vw;
     
-  }
+  } */
 
 }
 
 @media all and (min-width: 769px){
-  .header{
+  /* .header{
     position: sticky;
     gap: 87vw;
-  }
+  } */
 
   .center{
     padding: 70px 0;
     text-align: center;
   }
-  .footer{
+  /* .footer{
     position:sticky;
     gap: 87vw;
-  }
+  } */
 
 }
 
 @media all and (min-width: 1025px){
-  .header{
+  /* .header{
     position: sticky;
     gap: 95vw;
-  }
+  } */
   
   .center{
     padding: 70px 0;
     text-align: center;
     
   }
-  .footer{
+  /* .footer{
     position:sticky;
     gap: 95vw;
-  }
+  } */
 
 } 
