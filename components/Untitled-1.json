@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": -103.3333,
+    "lat": 20.6667
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 304.25,
+    "feels_like": 302.2,
+    "temp_min": 302.02,
+    "temp_max": 304.25,
+    "pressure": 1023,
+    "humidity": 16
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.6,
+    "deg": 310
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1679600054,
+  "sys": {
+    "type": 2,
+    "id": 268566,
+    "country": "MX",
+    "sunrise": 1679576089,
+    "sunset": 1679619899
+  },
+  "timezone": -21600,
+  "id": 4005539,
+  "name": "Guadalajara",
+  "cod": 200
+}

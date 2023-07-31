@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 100vh;
+  color: silver;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+
+/* ::-webkit-scrollbar-thumb{
+  background: silver;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track{
+  background: black;
+} */
+
+.header{
+  display: flex;
+  flex-direction: row;
+  gap: 60vw;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+
+.lg{
+  width: 60px;
+  height: 60px;
+}
+
+.work, .info, .bw{
+  position: relative;
+  text-decoration: none;
+  color: silver;
+  font-size: 10px;
+}
+
+.works, .i, .grn{
+  padding-top: 19px;
+  }
+
+.bw{
+  position: relative;
+  text-decoration: none;
+  color: green;
+}
+
+.center{
+  padding: 70px 0;
+  text-align: center;
+}
+
+.lugakingira{
+  color: #83a5f2;
+}
+
+.gdl{
+  text-decoration: line-through;
+}
+
+.hi, .intro{
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 70px 0;
+  position: relative;
+  /* color: red; */
+}
+
+.stop{
+  color: red;
+}
+
+.footer{
+  /* padding-top: 14vh; */
+  display: flex;
+  justify-content: center;
+  gap: 60vw;
+  padding-bottom: 8px;
+  /* z-index: 1; */
+  position: sticky;
+  bottom: 0;
+
+}
+
+ 
+@media all and (min-width: 320px){
+  .header{
+    gap: 75vw;
+    position: sticky;
+  }
+  
+  .center{
+    padding: 70px 0;
+    /* padding-top: 10vh; */
+    text-align: center;
+    /* color: red; */
+  }
+
+  .footer{
+    position:sticky;
+    gap: 75vw;
+    
+  }
+}
+
+@media all and (min-width: 481px){
+  .header{
+    position: sticky;
+    gap: 77vw;
+  }
+
+  .center{
+    padding: 70px 0;
+    text-align: center;
+    /* color: red; */
+  }
+
+  .footer{
+    position:sticky;
+    gap: 83vw;
+    
+  }
+
+}
+
+@media all and (min-width: 769px){
+  .header{
+    position: sticky;
+    gap: 87vw;
+  }
+
+  .center{
+    padding: 70px 0;
+    text-align: center;
+  }
+  .footer{
+    position:sticky;
+    gap: 87vw;
+  }
+
+}
+
+@media all and (min-width: 1025px){
+  .header{
+    position: sticky;
+    gap: 95vw;
+  }
+  
+  .center{
+    padding: 70px 0;
+    text-align: center;
+    
+  }
+  .footer{
+    position:sticky;
+    gap: 95vw;
+  }
+
+} 
